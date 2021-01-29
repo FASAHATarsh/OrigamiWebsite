@@ -5,7 +5,10 @@ h1{
     font-style: italic, oblique;
 }
 
-
+body{
+    padding: 0%;
+    
+}
 
 
 b{
@@ -49,8 +52,19 @@ text-align:center;
     align-content: stretch;
 }
  
-.a:hover
-{
-    transform: scale(1.2);
+
+hr{
+    padding: 0%;
 }
 
+.item{
+    position:relative;
+    margin-right: 60%;
+  
+    
+}
+
+.item:hover{
+    transform: scale(1.05);
+    
+}
